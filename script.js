@@ -6,9 +6,7 @@ ifelse server para validação de dados
 (condiçao) ? algo ira acontecer : outro algo ira acontecer 
 
 
-operadores logicos: |
-                    |
-                    V
+operadores logicos:
 
 === compara se é igual a outra
 !=  compara se o valor é diferente
@@ -38,10 +36,10 @@ function check(){
     var txtVar2 = document.getElementById("txtVar2");
     
     if(txtVar1.value == txtVar2.value){
-        console.log("true");
+        console.log("Verdadeiro");
     }
     else{
-        console.log("false");
+        console.log("Falso");
     }
     
     };
